@@ -128,41 +128,37 @@ export default function Contact() {
           </Form>
 
           <hr className="my-4" />
-          <Row className="g-4 contact-details">
-            <Col xs={12} md={4}>
-              <div className="d-flex align-items-start gap-3">
-                <div className="icon-wrap">
-                  <MdEmail className="fs-3 text-secondary" />
-                </div>
-                <div>
-                  <div className="fw-semibold">Email</div>
-                  <a href="mailto:patelpinshu4246@gmail.com" className="text-white text-decoration-none">patelpinshu4246@gmail.com</a>
-                </div>
+          <div className="d-flex flex-column gap-4 contact-details">
+            <div className="d-flex align-items-start gap-3">
+              <div className="icon-wrap">
+                <MdEmail className="fs-3 text-secondary" />
               </div>
-            </Col>
-            <Col xs={12} md={4}>
-              <div className="d-flex align-items-start gap-3">
-                <div className="icon-wrap">
-                  <MdLocationOn className="fs-3 text-secondary" />
-                </div>
-                <div>
-                  <div className="fw-semibold">Location</div>
-                  <div className="text-white">Kadi, Mehsana, Gujarat</div>
-                </div>
+              <div>
+                <div className="fw-semibold text-secondary">Email</div>
+                <a href="mailto:patelpinshu4246@gmail.com" className="text-white text-decoration-none">patelpinshu4246@gmail.com</a>
               </div>
-            </Col>
-            <Col xs={12} md={4}>
-              <div className="d-flex align-items-start gap-3">
-                <div className="icon-wrap">
-                  <MdPhone className="fs-3 text-secondary" />
-                </div>
-                <div>
-                  <div className="fw-semibold">Phone</div>
-                  <a href="tel:+918780165043" className="text-white text-decoration-none">+91 8780165043</a>
-                </div>
+            </div>
+            
+            <div className="d-flex align-items-start gap-3">
+              <div className="icon-wrap">
+                <MdLocationOn className="fs-3 text-secondary" />
               </div>
-            </Col>
-          </Row>
+              <div>
+                <div className="fw-semibold text-secondary">Location</div>
+                <div className="text-white">Kadi, Mehsana, Gujarat</div>
+              </div>
+            </div>
+            
+            <div className="d-flex align-items-start gap-3">
+              <div className="icon-wrap">
+                <MdPhone className="fs-3 text-secondary" />
+              </div>
+              <div>
+                <div className="fw-semibold text-secondary">Phone</div>
+                <a href="tel:+918780165043" className="text-white text-decoration-none">+91 8780165043</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

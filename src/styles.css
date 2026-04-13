@@ -304,14 +304,20 @@ body {
 }
 
 .contact-details .icon-wrap {
+  background: var(--glass);
   width: 44px;
   height: 44px;
-  background: var(--glass);
-  border: 1px solid var(--glass-border);
+  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 12px;
+  border: 1px solid var(--glass-border);
+}
+
+.contact-details .fw-semibold {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 /* Footer */
