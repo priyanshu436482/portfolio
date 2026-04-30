@@ -87,11 +87,12 @@ export default function Contact() {
                 <Form.Group controlId="phone">
                   <Form.Label>Phone Number</Form.Label>
                   <Form.Control 
-                    type="tel" 
-                    placeholder="+1 (555) 000-0000" 
+                    type="text" 
+                    placeholder="Phone Number" 
                     name="phone" 
                     value={form.phone} 
-                    onChange={onChange} 
+                    onChange={onChange}
+                    required
                   />
                 </Form.Group>
               </Col>

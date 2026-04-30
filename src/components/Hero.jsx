@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Button } from 'react-bootstrap'
 import profile from '../assets/images/profile.png'
+import cvFile from '../../data/Patel_Priyanshu_Resume (1).pdf'
 
 export default function Hero() {
   return (
@@ -17,8 +18,9 @@ export default function Hero() {
               I love working with modern technologies to solve complex problems.
             </p>
             <div className="d-flex gap-3">
-              <Button href="#projects" className="btn-primary-neo">View Projects</Button>
+              <Button href={cvFile} download="Patel_Priyanshu_Resume.pdf" className="btn-primary-neo">Download CV</Button>
               <Button href="#contact" className="btn-outline-neo">Contact Me</Button>
+
             </div>
           </div>
           <div className="hero-img-container">

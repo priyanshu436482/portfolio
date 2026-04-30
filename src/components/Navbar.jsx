@@ -16,9 +16,7 @@ export default function Navbar() {
             <Nav.Link href="#skills" className="nav-link-neo">Skills</Nav.Link>
             <Nav.Link href="#projects" className="nav-link-neo">Projects</Nav.Link>
             <Nav.Link href="#contact" className="nav-link-neo">Contact</Nav.Link>
-            <div className="d-flex ms-lg-3 mt-3 mt-lg-0">
-              <Button className="btn-outline-neo" href="#">Download CV</Button>
-            </div>
+
           </Nav>
         </RBNavbar.Collapse>
       </Container>
